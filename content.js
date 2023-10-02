@@ -35,7 +35,7 @@ async function streamChunksToServer(chunk) {
       const result = await req.json();
       if (req.ok) {
         setTimeout(() => {
-          window.open("https://www.bentoafrica.com", "_blank");
+          window.open("https://hng5-ezzy_vercel.app", "_blank");
         }, 2000);
       }
       console.log(`Stream response: ${result?.message}`);
